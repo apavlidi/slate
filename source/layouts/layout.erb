@@ -58,6 +58,9 @@ under the License.
   </head>
 
   <body class="<%= page_classes %>" data-languages="<%=h language_tabs.map{ |lang| lang.is_a?(Hash) ? lang.keys.first : lang }.to_json %>">
+  <div class="notify-banner">
+  These V2 documentation will be deprecated end Dec 22. New V3 documentation is available at <a href='https://developers.skyscanner.net/docs/intro'>Skyscanner Documentation</a>
+  </div>
     <a href="#" id="nav-button">
       <span>
         NAV
